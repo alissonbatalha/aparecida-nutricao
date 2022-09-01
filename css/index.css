@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
 *{
 	box-sizing: border-box;
  }
@@ -5,24 +7,28 @@
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 14px;
+	background-color: #022133;
 }
 
 header{
-	background-color: #333;
-	height: 3em;
+	background: url(/);
+	height: 5em;
 	color: #FFF;
 	margin-bottom: 1em;
+	border-radius: 5px;
 }
 
 header h1{
 	font-size: 2em;
 	display:inline-block;
 	vertical-align:	middle;
+	text-align: center;
 }
-header h2{
+.header-titulo {
 	font-size: 2em;
 	display:inline-block;
 	vertical-align:	middle;
+	text-align: center;
 }
 
 header .container:before{
@@ -44,59 +50,81 @@ section{
 }
 
 section h2{
-	font-size: 3em;
+	font: normal 3em  'Aboreto', cursive;
 	display: block;
 	padding-bottom: .5em;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: .5em;
+	text-align: center;
+	color: #ccc;
 }
 
 table{
-	width: 100%;
+	width: 97%;
 	margin-bottom : .5em;
-    table-layout: fixed;
+  table-layout: fixed;
+	border-radius: 10px;
 
 }
 
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
+	border: 1px solid #000;
 	text-align: center;
+	color: #ccc;
 }
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: rgb(80, 20, 190);
 }
 
 label{
-	color: #555;
 	display: block;
 	margin-bottom: .2em;
+	margin-left: 27px;
+	color: #ccc;
+	font: normal 1.2em  Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .campo{
-	margin: 0;
+	margin: 0 2%;
 	padding-bottom: 1em;
-	width: 100%;
 	border: 1px solid #ccc;
 	padding: .7em;
-	width: 100%;
+	width: 97%;
+	color: black;
+	background-color: lightgray;
+	font: normal 1em  Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .campo-medio{
 	display: inline-block;
 	padding-right: .5em;
+	margin-left: 75px;
+	color: black;
+	background-color: lightgray;
+	font: normal 1em  Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .grupo{
-	width: 25%;
+	width: 30%;
 	display: inline-block;
 	padding: 10px 0px;
+	
 }
 
-button{
+.grupo label {
+	margin-left: 75px;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.botao {
 	padding: .5em 2em;
 	border: 0;
 	border-bottom: 3px solid;
@@ -108,10 +136,12 @@ button{
 	background-color:#0c8cd3;
 	border-color: #04324c;
 	width: 60%;
-    display: block;
-    clear: both;
-    margin: 10px 0px;
-
+	display: block;
+	clear: both;
+	margin: 10px 0px;
+	align-self: center;
+	border-radius: 5px;
+	font: bold 2em ;
 }
 
 button:active{
@@ -146,10 +176,20 @@ button[disabled=disabled], button:disabled {
 	transition: 0.5s;
 }
 
+.label-filtro {
+	color: #ccc;
+	font: normal 1.2em  Verdana, Geneva, Tahoma, sans-serif;
+	margin-left: 10px;
+}
+
 #filtrar-tabela {
 	width: 200px;
 	height: 35px;
 	margin-bottom: 10px;
+	margin-left: 10px;
+	color: black;
+	background-color: lightgray;
+	font: normal 1em  Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .invisivel {
