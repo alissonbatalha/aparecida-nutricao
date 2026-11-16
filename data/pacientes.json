@@ -1,0 +1,5 @@
+[
+  { "nome": "Mariana", "peso": 62, "altura": 1.68, "gordura": 22 },
+  { "nome": "Carlos", "peso": 91, "altura": 1.80, "gordura": 27 },
+  { "nome": "Beatriz", "peso": 58, "altura": 1.62, "gordura": 20 }
+]
